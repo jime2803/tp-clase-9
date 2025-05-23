@@ -16,9 +16,9 @@ body {
   display: flexbox;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
-  margin: 100px
+  margin: 50px;
 }
 
 .cont-cards {
@@ -33,7 +33,7 @@ body {
   color: rgb(74, 195, 208);
   font-weight: 900;
   font-size: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
   letter-spacing: 1.3px;
 }
 
@@ -44,11 +44,17 @@ body {
   margin-bottom: 18px;
 }
 
+.access {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
 
 .box-top .p2 {
   color: rgb(211, 210, 210);
   font-weight: 900;
   font-size: 18px;
+  margin-bottom: 18px;
 }
 
 .box1 {
@@ -68,9 +74,25 @@ body {
 
 .p4 {
   color: white;
+  font-weight: 50;
+  opacity: 0.5;
+}
+
+.btn {
+  padding: 20px;
+  background-color: greenyellow;
+}
+
+.btn a {
+  display: flex;
+  justify-content: center;
 }
 
 .box2 {
   background-color: rgb(97, 199, 189);
   padding: 20px;
+}
+
+.list {
+  color: white;
 }
