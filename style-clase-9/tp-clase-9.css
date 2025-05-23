@@ -44,6 +44,7 @@ body {
   margin-bottom: 18px;
 }
 
+
 .box-top .p2 {
   color: rgb(211, 210, 210);
   font-weight: 900;
@@ -68,11 +69,6 @@ body {
 .p4 {
   color: white;
 }
-
-.box1 .payment {
-  display: inline;
-}
-
 
 .box2 {
   background-color: rgb(97, 199, 189);
