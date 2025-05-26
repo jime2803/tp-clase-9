@@ -13,9 +13,6 @@ body {
 }
 
 .container {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
   margin: 50px;
@@ -95,4 +92,9 @@ body {
 
 .list {
   color: white;
+}
+
+.container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
 }
