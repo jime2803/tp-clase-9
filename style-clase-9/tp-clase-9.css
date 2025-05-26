@@ -101,9 +101,19 @@ body {
 .btn {
   padding: 20px;
   background-color: greenyellow;
+  border-radius: 5px;
+  width: 250px;
+
+
 }
 
 .btn a {
   display: flex;
   justify-content: center;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  text-decoration: 0;
+
 }
