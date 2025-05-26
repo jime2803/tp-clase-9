@@ -13,17 +13,43 @@ body {
 }
 
 .container {
+  display: flex;
   border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
-  margin: 50px;
 }
 
 .cont-cards {
-  background-color: white;
+  border-radius: 10px;
+}
+
+.container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
 }
 
 .box-top {
-  padding: 30px;
+  padding: 20px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box1 {
+  background-color: rgb(2, 188, 170);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+}
+
+.list {
+  color: white;
+}
+
+.box2 {
+  background-color: rgb(97, 199, 189);
+  padding: 20px;
+  border-bottom-right-radius: 10px;
 }
 
 .box-top h3 {
@@ -54,10 +80,7 @@ body {
   margin-bottom: 18px;
 }
 
-.box1 {
-  background-color: rgb(2, 188, 170);
-  padding: 30px;
-}
+
 
 .box1 h3 {
   color: white;
@@ -83,18 +106,4 @@ body {
 .btn a {
   display: flex;
   justify-content: center;
-}
-
-.box2 {
-  background-color: rgb(97, 199, 189);
-  padding: 20px;
-}
-
-.list {
-  color: white;
-}
-
-.container .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 350px);
 }
