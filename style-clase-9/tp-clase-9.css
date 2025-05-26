@@ -12,29 +12,30 @@ body {
   height: 100vh;
 }
 
-.container {
+.cont {
   display: flex;
   border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
-.cont-cards {
+.cont-boxes {
   border-radius: 10px;
 }
 
-.container .grid {
+.container .boxes {
   display: grid;
   grid-template-columns: repeat(2, 350px);
 }
 
-.box-top {
+
+.box1 {
   padding: 20px;
   background-color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.box1 {
+.box2 {
   background-color: rgb(2, 188, 170);
   padding: 40px;
   display: flex;
@@ -46,17 +47,16 @@ body {
   color: white;
 }
 
-.box2 {
+.box3 {
   background-color: rgb(97, 199, 189);
   padding: 20px;
   border-bottom-right-radius: 10px;
 }
 
-.box-top h3 {
+.box-top .h3 {
   color: rgb(74, 195, 208);
   font-weight: 900;
   font-size: 25px;
-  margin-bottom: 28px;
   letter-spacing: 1.3px;
 }
 
@@ -80,7 +80,13 @@ body {
   margin-bottom: 18px;
 }
 
+.payment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 15px;
 
+}
 
 .box1 h3 {
   color: white;
@@ -96,6 +102,7 @@ body {
   color: white;
   font-weight: 50;
   opacity: 0.5;
+  margin-left: 10px;
 }
 
 .btn {
