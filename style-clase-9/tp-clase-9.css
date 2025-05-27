@@ -12,51 +12,28 @@ body {
   height: 100vh;
 }
 
-.cont {
-  display: flex;
+.container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  margin: 50px;
 }
 
-.cont-boxes {
-  border-radius: 10px;
-}
-
-.container .boxes {
-  display: grid;
-  grid-template-columns: repeat(2, 350px);
-}
-
-
-.box1 {
-  padding: 20px;
+.cont-cards {
   background-color: white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
-.box2 {
-  background-color: rgb(2, 188, 170);
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  border-bottom-left-radius: 10px;
+.box-top {
+  padding: 30px;
 }
 
-.list {
-  color: white;
-}
-
-.box3 {
-  background-color: rgb(97, 199, 189);
-  padding: 20px;
-  border-bottom-right-radius: 10px;
-}
-
-.box-top .h3 {
+.box-top h3 {
   color: rgb(74, 195, 208);
   font-weight: 900;
   font-size: 25px;
+  margin-bottom: 28px;
   letter-spacing: 1.3px;
 }
 
@@ -80,20 +57,28 @@ body {
   margin-bottom: 18px;
 }
 
-.payment {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-  margin-top: 15px;
+.box1 {
+  background-color: rgb(2, 188, 170);
+  padding: 30px;
+}
 
+.box1 .payment {
+  display: grid;
+  grid-template-columns: repeat(2, 70px);
+  margin-bottom: 10px;
+}
+
+.p4 {
+  margin-top: 10px;
 }
 
 .box1 h3 {
   color: white;
+  margin-bottom: 10px;
 }
 
 .p3 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
   color: white;
 }
@@ -102,25 +87,34 @@ body {
   color: white;
   font-weight: 50;
   opacity: 0.5;
-  margin-left: 10px;
 }
 
 .btn {
   padding: 20px;
   background-color: greenyellow;
+  box-shadow: 5px 6px 6px 0px rgba(152, 147, 147, 0.75);
   border-radius: 5px;
-  width: 250px;
-
-
 }
 
 .btn a {
   display: flex;
   justify-content: center;
   color: white;
-  text-align: center;
   font-weight: 900;
-  font-size: 18px;
   text-decoration: 0;
+  font-size: 22px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
+.box2 {
+  background-color: rgb(97, 199, 189);
+  padding: 20px;
+}
+
+.list {
+  color: white;
+}
+
+.list .p5 {
+  margin-top: 15px;
 }
