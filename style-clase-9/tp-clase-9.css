@@ -18,11 +18,17 @@ body {
   align-items: center;
   border-radius: 10px;
   box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.75);
-  margin: 50px;
+  margin: 650px;
+}
+
+.container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
 }
 
 .cont-cards {
   background-color: white;
+  border-radius: 10px;
 }
 
 .box-top {
@@ -60,6 +66,7 @@ body {
 .box1 {
   background-color: rgb(2, 188, 170);
   padding: 30px;
+  border-bottom-left-radius: 10px;
 }
 
 .box1 .payment {
@@ -109,6 +116,7 @@ body {
 .box2 {
   background-color: rgb(97, 199, 189);
   padding: 20px;
+  border-bottom-right-radius: 10px;
 }
 
 .list {
